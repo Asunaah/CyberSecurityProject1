@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html  xmlns="http://www.w3.org/1999/xhtml" lang="fi">
+<head>
+<meta charset="UTF-8" />
+<title>Results on "{{ question.question_text }}"</title>
+</head>
+<body>
+<h1>{{ question.question_text }}</h1>
+
+{% if user.is_authenticated %}
+	<ul>
+	{% for choice in question.choice_set.all %}
+		<li>{{ choice.choice_text }} -- {{ choice.votes }} vote{{ choice.votes|pluralize }}</li>
+	{% endfor %}
+	</ul>
+	<a href="{% url 'polls:detail' question.id %}">Vote again?</a>
+{% else %}
+	<p>Please login to view the results.</p>
+{% endif %}
+<a href="{% url 'polls:index' %}">Homepage</a>
+</body>
+</html>
