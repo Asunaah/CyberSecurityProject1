@@ -23,7 +23,7 @@ https://github.com/Asunaah/CyberSecurityProject1/blob/7f1ca3faec7214417878ccdcef
 
 Description: When the user tries to vote on a question while not logged in, instead of a vote-button there is an error message saying “You're not logged in.” However, this can be bypassed by editing the HTML page and locally just adding a button element with type=”SUBMIT” on frontend. It becomes a backend problem, since the user has successfully voted on a question without logging in. To try this out, go to a question page without logging in and add the following HTML somewhere on the page.
 
-<button type=”SUBMIT”>Vote</but_ton>
+<button. type=”SUBMIT”>Vote</button.> (without the dots)
 
 In order to view the results, I recommend logging in on one browser, and trying the button trick on incognito or another browser.
 
