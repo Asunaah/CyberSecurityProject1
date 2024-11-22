@@ -1,6 +1,15 @@
 # CyberSecurityProject1
 First project of the Cyber Security Base 2024 -course.
+## Installation guide
+This project assumes you have all the necessary packages installed. If not, follow the instructions <a href="https://cybersecuritybase.mooc.fi/installation-guide">here</a>.
+1. Using git bash, navigate to a folder where you would like to have this project stored.
+2. Type in "git clone https://github.com/Asunaah/CyberSecurityProject1"
+3. Navigate to the folder where manage.py is located (myproject).
+4. Now you can run the server by typing in "python3 manage.py runserver".
 
+Good luck!
+
+## The Essay
 LINK: https://github.com/Asunaah/CyberSecurityProject1/tree/main
 
 I created a simple polls application using the tutorial linked in the assignment [1]. Following the tutorial, you get an app where anyone can vote for questions that have been created by the admin as many times as they want. I modified it so that the user must be logged in to vote and to view the results. Please fix the problems in order, otherwise the app might not function as intended. For this project I used the 2021 version of OWASP top ten list. There are two normal users (alice:redqueen and bob:squarepants), and one admin (admin:admin). I recommend trying out the application with only alice and bob, so the admin privileges won’t bother. You can also create new users within the admin page (login as admin).
