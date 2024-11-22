@@ -62,7 +62,10 @@ Restart the server and see if it works. If it still doesn't work, follow this tu
 
 There are a few other flaws as well. For example, there’s no cryptography in use, so a man-in-the-middle attacks are totally possible with this application. Not to mention that the users and the questions can only be created, edited and deleted by an admin. However, I fixed 5 different kinds of flaws, and that should be enough for now. The other problems are for another day to solve.
 
-[1] https://docs.djangoproject.com/en/3.1/intro/tutorial01/ 
+[1] https://docs.djangoproject.com/en/3.1/intro/tutorial01/
+
 [2] https://docs.djangoproject.com/en/3.1/ref/settings/#std:setting-DEBUG
-[3] https://docs.djangoproject.com/en/5.1/topics/logging/ 
+
+[3] https://docs.djangoproject.com/en/5.1/topics/logging/
+
 [4] https://dev.to/arnopretorius/manage-failed-login-attempts-with-django-35pj 
