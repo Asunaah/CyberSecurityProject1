@@ -6,6 +6,7 @@ This project assumes you have all the necessary packages installed. If not, foll
 2. Type in "git clone https://github.com/Asunaah/CyberSecurityProject1"
 3. Navigate to the folder where manage.py is located (myproject).
 4. Now you can run the server by typing in "python3 manage.py runserver".
+5. You can find the application from http://127.0.0.1:8000/polls.
 
 Good luck!
 
